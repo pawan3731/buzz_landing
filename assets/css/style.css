@@ -150,6 +150,20 @@ ol {
     width: 250px;
 }
 
+.linkBtn {
+    background: rgba(255,255,255,.5);
+    padding: 12px 30px;
+    border-radius: 40px;
+    border: 2px solid #fff;
+    color: #033F49;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 20px;
+    display: inline-block;
+    box-shadow: 0px 4px 16px 0 rgba(0,0,0,0.25);
+}
+
 /* Category Section */
 .categorySection {
     background-image: linear-gradient(#066B7B, #033F49);
@@ -401,7 +415,7 @@ ol {
     }
 
     .titleMD.primaryTitle {
-        font-size: 55px;
+        font-size: 60px;
     }
 
     .sliderOuter h4 {
