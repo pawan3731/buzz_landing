@@ -626,6 +626,11 @@ ol {
         right: 0px;
     }
 
+    .musicIcon {
+        right: 0;
+        top: -50px;
+    }
+
     .container {
         padding-inline: 30px;
     }
@@ -684,6 +689,10 @@ ol {
         padding-block: 60px;
     }
     
+    .downloadSection h2 {
+        font-size: 32px;
+        max-width: 360px;
+    }
 }
 
 @media (max-width: 767.98px) {   
@@ -706,4 +715,29 @@ ol {
     .img02 img {
         width: 180px;
     }
+
+    .sliderOuter h4:nth-child(3), .sliderOuter h4:nth-child(5) {
+        font-size: 30px;
+    }
+    
+    .sliderOuter h4:nth-child(2), .sliderOuter h4:nth-child(6) {
+        font-size: 24px;
+    }
+    
+    .sliderOuter h4:nth-child(4) {
+        font-size: 40px;
+    }
+
+    .icon03 {
+        width: 170px;
+        bottom: 30%;
+        left: 0;
+    }
 }
+
+@media (max-width: 575.98px) {  
+    .scannerImg {
+        width: 150px;
+    }
+}
+
