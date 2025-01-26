@@ -285,6 +285,7 @@ ol {
     position: absolute;
     inset: 0;
     background-size: 100%;
+    background-position: bottom;
 }
 
 .referImg {
