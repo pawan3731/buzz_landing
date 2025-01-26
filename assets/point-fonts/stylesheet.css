@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Point';
+    src: url('Point-Black.woff2') format('woff2'),
+        url('Point-Black.woff') format('woff'),
+        url('Point-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Point';
+    src: url('Point-Bold.woff2') format('woff2'),
+        url('Point-Bold.woff') format('woff'),
+        url('Point-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Point Book';
+    src: url('Point-Book.woff2') format('woff2'),
+        url('Point-Book.woff') format('woff'),
+        url('Point-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Point Extra';
+    src: url('Point-ExtraBold.woff2') format('woff2'),
+        url('Point-ExtraBold.woff') format('woff'),
+        url('Point-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Point';
+    src: url('Point-Light.woff2') format('woff2'),
+        url('Point-Light.woff') format('woff'),
+        url('Point-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Point';
+    src: url('Point-MediumItalic.woff2') format('woff2'),
+        url('Point-MediumItalic.woff') format('woff'),
+        url('Point-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Point';
+    src: url('Point-Regular.woff2') format('woff2'),
+        url('Point-Regular.woff') format('woff'),
+        url('Point-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Point Semi';
+    src: url('Point-SemiBold.woff2') format('woff2'),
+        url('Point-SemiBold.woff') format('woff'),
+        url('Point-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Point';
+    src: url('Point-Thin.woff2') format('woff2'),
+        url('Point-Thin.woff') format('woff'),
+        url('Point-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
