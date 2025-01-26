@@ -545,7 +545,7 @@ ol {
     }
 
     .eventBox img {
-        width: 100%;
+        width: 80%;
     }
 
     .icon03 {
@@ -733,11 +733,30 @@ ol {
         bottom: 30%;
         left: 0;
     }
+
+    .icon01 img {
+        width: 150px;
+    }
 }
 
 @media (max-width: 575.98px) {  
     .scannerImg {
         width: 150px;
+    }
+
+    .icon03 {
+        width: 110px;
+        bottom: 30%;
+    }
+
+    .icon04 {
+        width: 100px;
+        top: -31px;
+        right: 10px;
+    }
+
+    .img02 img, .img01 img {
+        width: 120px;
     }
 }
 
