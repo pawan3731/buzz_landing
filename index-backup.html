@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>buzzapp</title>
-    <link rel="shortcut icon" type="image/x-icon" href="image/buuzFav.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/image/logo.svg">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link href="assets/css/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
@@ -17,29 +17,29 @@
 
 <body>
 
-    <section class="buzz_banner pb-5 position-relative">
+    <section class="buzzBanner pb-5 position-relative">
         <div class="container">
-            <div class="logo_bar">
-                <a href="nav_logo">
+            <div class="logoBar">
+                <a href="navLogo">
                     <img src="assets/image/logo.svg" alt="logo">
                 </a>
-                <div class="right_menu">
+                <div class="rightMenu">
                     <span><img src="assets/image/menu.svg" alt="menu-icon"></span>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 position-relative">
-                    <h1 class="primaryTitle mt-5">Find Events Fast & Easy</h1>
+                <div class="col-md-6 position-relative text-center text-md-start" data-aos="fade-up">
+                    <h1 class="primaryTitle mt-0 mt-md-5 pt-md-5 pt-0">Find Events Fast & Easy</h1>
                     <p class="bannerDes">Discover the endless variety of events on our app</p>
                     <img class="bannerIcon" src="assets/image/bannerIcon.svg" alt="banner-icon">
                 </div>
-                <div class="col-md-6">
-                    <div class="banner_img position-relative text-end">
-                        <div class="scannerImg">
+                <div class="col-md-6" data-aos="fade-up">
+                    <div class="bannerImg position-relative text-end">
+                        <div class="scannerImg" data-aos="zoom-in" data-aos-delay="800">
                             <span class="d-block">Scan QR Code</span>
-                            <img src="assets/image/scaner_img.png" alt="scaner-img">
+                            <img src="assets/image/scaner_img.png" alt="scaner-img" width="100%">
                         </div>
-                        <img src="assets/image/banner_img.png" alt="banner-img" width="641">
+                        <img class="bannerRightImg" src="assets/image/banner_img.png" alt="banner-img">
                     </div>
                 </div>
             </div>
@@ -53,19 +53,19 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-5 pt-5 position-relative index2">
+                <div class="col-md-5 pt-5 pb-5 pb-md-0 text-center text-md-start position-relative index2"  data-aos="fade-up">
                     <h1 class="primaryTitle">Search Events By Category</h1>
                 </div>
-                <div class="col-md-7 smallSlider position-relative">
+                <div class="col-md-7 smallSlider position-relative" data-aos="fade-up">
                     <div class="sliderOuter">
-                        <div class="textSlider1">
-                            <h4>Food & Beverage Events</h4>
-                            <h4>Health & Wellness</h4>
-                            <h4>Holiday Events</h4>
-                            <h4>Live Music Events</h4>
-                            <h4>Performing Arts</h4>
-                            <h4>Special Events</h4>
-                            <h4>Sport Events</h4>
+                        <div class="textSlider">
+                            <div class="swiper-slide">Food & Beverage Events</div>
+                            <div class="swiper-slide">Health & Wellness</div>
+                            <div class="swiper-slide">Holiday Events</div>
+                            <div class="swiper-slide">Live Music Events</div>
+                            <div class="swiper-slide">Performing Arts</div>
+                            <div class="swiper-slide">Special Events</div>
+                            <div class="swiper-slide">Sport Events</div>
                         </div>
                     </div>
                 </div>
@@ -76,17 +76,17 @@
     <div class="eventSection sectionPadding">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 position-relative">
+                <div class="col-lg-6 position-relative d-none d-lg-block" data-aos="fade-up">
                     <div class="eventImg">
                         <img src="assets/image/eventImg.png" alt="event-img">
                     </div>
                 </div>
-                <div class="col-md-6 position-relative">
+                <div class="col-lg-6 position-relative">
                     <div class="musicIcon">
-                        <img src="assets/image/musicIcon.svg" alt="music-icon" width="100%">
+                        <img src="assets/image/musicIcon.svg" alt="music-icon" width="100%" data-aos="zoom-in" data-aos-delay="800">
                     </div>
                     <div class="row align-items-end">
-                        <div class="col-md-6">
+                        <div class="col-sm-6" data-aos="fade-up">
                             <div class="eventBox">
                                 <h4 class="primaryTitle titleMD">LIVE MUSIC</h4>
                                 <ul>
@@ -98,10 +98,10 @@
                                     <li>- K-Pop</li>
                                     <li>- and many more</li>
                                 </ul>
-                                <img src="assets/image/eventIcon.png" alt="icon">
+                                <img class="arrowImg" src="assets/image/eventIcon.png" alt="icon">
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-6" data-aos="fade-up">
                             <div class="eventBox">
                                 <h4 class="primaryTitle titleMD">SPORT EVENTS</h4>
                                 <ul style="max-width: 380px;">
@@ -120,17 +120,24 @@
     </div>
 
     <section class="textSliderSection py-3 position-relative" style="background-color: #2EA1A8;">
-        <div class="img01 position-absolute"><img src="assets/image/icon03.png" alt="icon03"></div>
-        <div class="img02 position-absolute bottom-0 end-0"><img src="assets/image/icon04.png" alt="icon03"></div>
-        <div class="sliderOuter">
-            <div class="textSlider1">
-                <h4>Today</h4>
-                <h4>Within 3 Days</h4>
-                <h4>Within 7 Days</h4>
-                <h4>Next 2 Week</h4>
-                <h4>Next 4 Week</h4>
-                <h4>Next 2 Month</h4>
-                <h4>Next 1 Month</h4>
+        <div data-aos="zoom-in" data-aos-delay="800" class="img01 position-absolute"><img src="assets/image/icon03.png" alt="icon03"></div>
+        <div data-aos="zoom-in" data-aos-delay="800" class="img02 position-absolute bottom-0 end-0"><img src="assets/image/icon04.png" alt="icon03"></div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Next 2 Week</div>
+                <div class="swiper-slide">Next 4 Week</div>
+                <div class="swiper-slide">Next 2 Month</div>
+                <div class="swiper-slide">Next 3 Month</div>
+                <div class="swiper-slide">Today</div>
+                <div class="swiper-slide">Within 7 Days</div>
+                <div class="swiper-slide">Within 3 Days</div>
+                <div class="swiper-slide">Next 2 Week</div>
+                <div class="swiper-slide">Next 4 Week</div>
+                <div class="swiper-slide">Next 2 Month</div>
+                <div class="swiper-slide">Next 3 Month</div>
+                <div class="swiper-slide">Today</div>
+                <div class="swiper-slide">Within 7 Days</div>
+                <div class="swiper-slide">Within 3 Days</div>
             </div>
         </div>
     </section>
@@ -138,13 +145,16 @@
     <section class="referSection">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-7">
-                    <h1 class="primaryTitle titleMD">MANY WAYS TO EARN <br> COINS & RECEIVE PERSONALIZED <br>
-                        EVENT SUGGESTIONS <br> WAYS TO EARN COINS</h1>
+                <div class="col-md-7" data-aos="fade-up" data-aos-delay="1000">
+                    <h1 class="primaryTitle titleMD text-center text-md-start mt-5 mt-md-0 mb-5 mb-md-0">MANY WAYS TO EARN <br> COINS & RECEIVE PERSONALIZED <br>
+                        EVENT SUGGESTIONS</h1>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5" data-aos="fade-up">
                     <div class="referImg position-relative">
-                        <p><span class="d-block">Invite Friends</span> (You both get conins)</p>
+                        <p data-aos="zoom-in" data-aos-delay="800"><span class="d-block">Invite Friends</span> (You and your Friends will receive coins)</p>
+                        <span class="imgLabel" data-aos="zoom-in" data-aos-delay="1000">Swipe Question</span>
+                        <span class="imgLabel imgLabel02" data-aos="zoom-in" data-aos-delay="1200">Suggest or Report Venues</span>
+                        <span class="imgLabel imgLabel03" data-aos="zoom-in" data-aos-delay="1000">Play Trivia Etc.</span>
                         <img src="assets/image/referImg.png" alt="refer-img" width="100%">
                     </div>
                 </div>
@@ -155,14 +165,14 @@
     <section class="sectionPadding privacySection position-relative">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up">
                     <div class="privacyImg text-end position-relative">
                         <img class="startImg" src="assets/image/start.png" alt="start-img">
-                        <img src="assets/image/lock1.png" alt="lock-img">
+                        <img class="lockMainImg" src="assets/image/lock01.png" alt="lock-img">
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <h1 class="primaryTitle text-end titleMD">PROTECTING <br> YOUR PRIVACY - WE NEVER
+                <div class="col-md-6" data-aos="fade-up">
+                    <h1 class="primaryTitle text-center mt-5 mt-md-0 text-md-end titleMD">PROTECTING <br> YOUR PRIVACY - WE NEVER
                         SHARE YOUR DATA</h1>
                 </div>
             </div>
@@ -172,16 +182,17 @@
     <div class="sectionPadding greenBg">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 text-center text-md-start mb-5 mb-md-0" data-aos="fade-up">
                     <h1 class="primaryTitle titleMD">MUSICIAN? DJ? VENUE MANAGER / OWNER? <br> FESTIVAL
                         ORGANIZER?</h1>
                     <p class="bannerDes">Add events for free and unlimited on</p>
+                    <a class="linkBtn" href="#">www.BUUZEVENTS.com</a>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up">
                     <div class="position-relative">
-                        <img class="icon03" src="assets/image/icon03.svg" alt="icon">
-                        <img class="position-relative" src="assets/image/Midnight.png" lang="img" width="100%">
-                        <img class="icon04" src="assets/image/icon03.svg" width="216" alt="icon">
+                        <img class="icon03" src="assets/image/icon03.svg" alt="icon" data-aos="zoom-in" data-aos-delay="800">
+                        <img class="position-relative index2" src="assets/image/Midnight.png" lang="img" width="100%">
+                        <img class="icon04" src="assets/image/icon03.svg" width="216" alt="icon" data-aos="zoom-in" data-aos-delay="800">
                     </div>
                 </div>
             </div>
@@ -189,9 +200,9 @@
     </div>
 
     <section class="sectionPadding downloadSection">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <h2>DOWNLOAD The BUUZ app to explore events near you</h2>
-            <div class="downloadIcon d-flex justify-content-center gap-3 mt-3 position-relative">
+            <div class="downloadIcon d-flex justify-content-center gap-3 mt-3 position-relative flex-wrap">
                 <div class="icon02">
                     <img src="assets/image/icon02.svg" alt="icon02">
                 </div>
@@ -203,11 +214,11 @@
 
     <section class="buzz_footer">
         <div class="container">
-            <div class="row">
-                <div class="col-md-2">
+            <div class="row g-3">
+                <div class="col-md-4 col-lg-2" data-aos="fade-down">
                     <img src="assets/image/logo.svg" alt="logo">
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-4 col-lg-2" data-aos="fade-down">
                     <div class="footerLink">
                         <a href="#">How It Works</a>
                         <a href="#">BUUZ In The Press</a>
@@ -215,21 +226,21 @@
                         <a href="#">Privacy Policy</a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4 col-lg-3" data-aos="fade-down">
                     <div class="footerLink">
                         <a href="#">Musicians, DJs and Artists</a>
                         <a href="#">Venues, Arenas, Stadiums</a>
                         <a href="#">Comedy Clubs</a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-6 col-lg-3" data-aos="fade-down">
                     <div class="footerLink">
                         <a href="#">Theaters & Performing Art Centers</a>
                         <a href="#">Festivals and Beach Events</a>
                         <a href="#">Cities, Municipalities, Parks</a>
                     </div>
                 </div>
-                <div class="col-md-2 text-right">
+                <div class="col-md-6 col-lg-2 text-right" data-aos="fade-down">
                     <div class="footerSocial">
                         <a href="#"><img src="assets/image/Facebook.svg" alt="YouTube"></a>
                         <a href="#"><img src="assets/image/YouTube.svg" alt="YouTube"></a>
@@ -247,19 +258,36 @@
 
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
     <script>
-        $('.textSlider').slick({
-            vertical: true,
-            autoplay: true,
-            loop: true,
-            centerMode: true,
-            centerPadding: '0px',
-            slidesToShow: 8,
-            slidesToScroll: 1,
-            infinite: true,
-            arrows: false,
-        });
+        AOS.init({
+            duration: 1200,
+        })
+
+        var swiper = new Swiper('.swiper-container', {
+				direction: 'vertical',
+				slidesPerView: 7,
+				spaceBetween: 0,
+				grabCursor: true,
+				centeredSlides: true,
+                calculateHeight:true,
+				loop: true,
+				autoplay: {
+				  delay: 5000,
+				  disableOnInteraction: false,
+				},
+				on: {
+				slideChange: function () {
+				  this.slides.forEach(slide => slide.classList.remove('swiper-custom'));
+
+				  const prevSlide = document.querySelector('.swiper-slide-prev');
+				  if (prevSlide) {
+					prevSlide.previousElementSibling?.classList.add('swiper-custom');
+				  }
+				},
+			  },
+			});
     </script>
 </body>
 
