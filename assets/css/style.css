@@ -505,7 +505,7 @@ ol {
 
 .footerSocial a {
     display: inline-block;
-    margin: 0px 8px;
+    margin: 0px 4px;
 }
 
 .copyRight {
@@ -947,6 +947,10 @@ ol {
 
     .icon01 img {
         width: 150px;
+    }
+
+    .referSection::after {
+        background-repeat: repeat;
     }
 }
 
