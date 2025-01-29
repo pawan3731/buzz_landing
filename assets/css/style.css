@@ -398,19 +398,18 @@ ol {
 
 .imgLabel.imgLabel02 {
     right: 0;
-    top: 28%;
+    top: 23%;
     left: auto;
 }
 
 .imgLabel.imgLabel03 {
-    top: 70%;
+    top: 65%;
 }
 
 .imgLabel.imgLabel04 {
-    position: absolute;
-    right: 0;
-    top: 0px;
-    left: auto;
+    position: relative;
+    margin: 0 auto;
+    top: 0;
 }
 
 .referImg::after {
@@ -966,7 +965,7 @@ ol {
     }
 
     .imgLabel.imgLabel02 {
-        top: 40%;
+        top: 30%;
     }
 }
 
