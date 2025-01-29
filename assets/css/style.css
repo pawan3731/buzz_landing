@@ -398,18 +398,18 @@ ol {
 
 .imgLabel.imgLabel02 {
     right: 0;
-    top: 23%;
+    top: 28%;
     left: auto;
 }
 
 .imgLabel.imgLabel03 {
-    top: 65%;
+    top: 70%;
 }
 
 .imgLabel.imgLabel04 {
     position: absolute;
     right: 0;
-    top: -13px;
+    top: 0px;
     left: auto;
 }
 
@@ -966,7 +966,7 @@ ol {
     }
 
     .imgLabel.imgLabel02 {
-        top: 30%;
+        top: 40%;
     }
 }
 
