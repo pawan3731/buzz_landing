@@ -52,26 +52,15 @@ ol {
     z-index: 2;
 }
 
-/* Banner */
-.buzzBanner {
-    background-color: var(--greenColor);
-    background-attachment: fixed;
-}
-
-.buzzBanner 
- .container {
-    position: relative;
-    z-index: 2;
-}
-
-.logoBar {
+/* Menu */
+.MenuBar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 0 50px;
+    padding: 30px 0;
 }
 
-.rightMenu span {
+.MenuBar span {
     background: var(--whiteColor);
     height: 50px;
     width: 50px;
@@ -80,6 +69,41 @@ ol {
     justify-content: center;
     border-radius: 14px;
     box-shadow: 4px 4px 6px 0px rgba(0,0,0,0.2);
+}
+
+.offcanvas-header {
+    padding: 1.5rem 2rem;
+}
+
+.menuLink {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menuLink a {
+    display: block;
+    text-decoration: none;
+    color: #111;
+    padding: 12px 20px;
+    border-top: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.menuLink a:hover {
+    color: #066C7B;
+}
+
+/* Banner */
+.buzzBanner {
+    background-color: var(--greenColor);
+    background-attachment: fixed;
+}
+
+.buzzBanner .container {
+    position: relative;
+    z-index: 2;
 }
 
 .bannerDes {
@@ -369,15 +393,24 @@ ol {
     font-size: 20px;
     font-weight: bold;
     box-shadow: 0 6px 20px 0 rgba(0,0,0,0.25);
+    left: 0;
 }
 
 .imgLabel.imgLabel02 {
     right: 0;
     top: 23%;
+    left: auto;
 }
 
 .imgLabel.imgLabel03 {
     top: 65%;
+}
+
+.imgLabel.imgLabel04 {
+    position: absolute;
+    right: 0;
+    top: -13px;
+    left: auto;
 }
 
 .referImg::after {
@@ -392,6 +425,7 @@ ol {
     left: 49%;
     opacity: .3;
     top: -100px;
+    display: none;
 }
 
 /* Privacy Section */
@@ -516,6 +550,28 @@ ol {
     color: var(--whiteColor);
     font-weight: 400;
 }
+
+
+/* Privacy Policy */
+.privacyContent p {
+    color: #7A7A85;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.privacyContent p strong {
+    display: block;
+    color: #111;
+    margin: 24px 0 -20px;
+    font-size: 24px;
+}
+
+.privacyContent a {
+    text-decoration: underline;
+    color: #333;
+}
+
 
 
 @media (max-width: 1640px) {
@@ -707,6 +763,14 @@ ol {
         font-size: 16px;
     }
 
+    .privacyContent p {
+        font-size: 18px;
+    }
+    
+    .privacyContent p strong {
+        font-size: 22px;
+    }
+
     @keyframes run {
         0% {
           right: -10%;
@@ -816,6 +880,18 @@ ol {
 
     .container {
         padding-inline: 30px;
+    }
+
+    .linkBtn {
+        font-size: 20px;
+    }
+
+    .privacyContent p {
+        font-size: 16px;
+    }
+    
+    .privacyContent p strong {
+        font-size: 20px;
     }
 }
 
@@ -952,6 +1028,22 @@ ol {
     .referSection::after {
         background-repeat: repeat;
     }
+
+    .linkBtn {
+        font-size: 18px;
+    }
+
+    .privacyContent p {
+        font-size: 15px;
+    }
+    
+    .privacyContent p strong {
+        font-size: 18px;
+    }
+
+    .logoBar {
+        padding: 20px 0;
+    }
 }
 
 @media (max-width: 575.98px) {  
@@ -988,6 +1080,31 @@ ol {
 
     .referImg {
         top: 30px;
+    }
+
+    .icon01 img {
+        width: 110px;
+    }
+
+    .icon02 {
+        left: 0;
+        bottom: 30px;
+    }
+
+    .icon02 img {
+        max-width: 140px;
+    }
+
+    @keyframes run2 {
+        0% {
+          left: -25px;
+        }
+        50% {
+          left: -45px;
+        }
+        100% {
+          left: -25px;    
+        }
     }
 }
 
