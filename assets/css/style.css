@@ -516,6 +516,7 @@ ol {
     cursor: not-allowed;
     position: relative;
     overflow: hidden;
+    pointer-events: none;
 }
 
 .comingSoon span {
