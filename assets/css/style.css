@@ -513,8 +513,22 @@ ol {
 }
 
 .comingSoon {
-    opacity: 0.2;
     cursor: not-allowed;
+    position: relative;
+    overflow: hidden;
+}
+
+.comingSoon span {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.92);
+    color: #333;
+    font-size: 180%;
+    font-weight: 600;
 }
 
 /* Footer Section */
@@ -770,6 +784,10 @@ ol {
         font-size: 22px;
     }
 
+    .comingSoon span {
+        font-size: 140%;
+    }
+
     @keyframes run {
         0% {
           right: -10%;
@@ -891,6 +909,10 @@ ol {
     
     .privacyContent p strong {
         font-size: 20px;
+    }
+
+    .comingSoon span {
+        font-size: 100%;
     }
 }
 
