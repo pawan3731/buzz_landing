@@ -587,6 +587,46 @@ ol {
 }
 
 
+/* Media Page */
+.mediaBox {
+    box-shadow: 0px 10px 60px 0 rgba(0,0,0,0.15);
+}
+
+.mediaContent {
+    padding: 20px;
+}
+
+.mediaName {
+    font-size: 20px;
+    font-weight: 600;
+    color: #066C7B;
+}
+
+.mediaTitle {
+    font-size: 36px;
+    font-weight: bold;
+    margin:12px 0 10px;
+    color: #111;
+}
+
+.mediaDate span {
+    font-size: 18px;
+    color: #555;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    gap: 10px;
+}
+
+.mediaDes {
+    font-size: 18px;
+    color: #111;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+
 
 @media (max-width: 1640px) {
     .bannerImg {
