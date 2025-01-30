@@ -627,6 +627,13 @@ ol {
 }
 
 
+/* How It Works */
+.videoCard iframe {
+    aspect-ratio: 16/9;
+    width: 100%;
+    border-radius: 10px;
+}
+
 
 @media (max-width: 1640px) {
     .bannerImg {
