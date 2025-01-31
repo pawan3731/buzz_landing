@@ -340,7 +340,7 @@ ol {
     position: absolute;
     height: 40%;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 
 /* Refer Section */
@@ -962,6 +962,23 @@ ol {
     .comingSoon span {
         font-size: 100%;
     }
+
+    .mediaName {
+        font-size: 18px;
+    }
+
+    .mediaTitle {
+        font-size: 28px;
+    }
+
+    .mediaDes {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+
+    .mediaDate span {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 991.98px) {   
@@ -1040,6 +1057,10 @@ ol {
 }
 
 @media (max-width: 767.98px) {   
+    .MenuBar {
+        padding: 20px 0;
+    }
+
     .sectionPadding {
         padding-block: 50px;
     }
@@ -1113,6 +1134,23 @@ ol {
     .logoBar {
         padding: 20px 0;
     }
+
+    .mediaName {
+        font-size: 16px;
+    }
+
+    .mediaTitle {
+        font-size: 24px;
+    }
+
+    .mediaDes {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .mediaDate span {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 575.98px) {  
@@ -1162,6 +1200,10 @@ ol {
 
     .icon02 img {
         max-width: 140px;
+    }
+
+    .mediaTitle {
+        font-size: 20px;
     }
 
     @keyframes run2 {
