@@ -624,6 +624,39 @@ ol {
     color: #111;
     line-height: 1.6;
     margin-top: 20px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.mediaDesOuter span {
+    font-weight: 500;
+    font-size: 18px;
+    color: #066C7B;
+    cursor: pointer;
+    text-transform: .4s all;
+}
+
+.mediaDesOuter span:hover {
+    text-decoration: underline;
+}
+
+#modalContent .mediaDes {
+    -webkit-line-clamp: inherit;
+}
+
+#modalContent span {
+    display: none;
+}
+
+.modal-body {
+    font-size: 18px;
+}
+
+.modal-title {
+    color: #000;
+    font-weight: 600;
 }
 
 
