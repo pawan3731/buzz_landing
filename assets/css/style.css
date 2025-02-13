@@ -596,10 +596,11 @@ ol {
     padding: 20px;
 }
 
-.mediaName {
+.mediaName, .mediaName a {
     font-size: 20px;
     font-weight: 600;
     color: #066C7B;
+    text-decoration: none;
 }
 
 .mediaTitle {
@@ -659,6 +660,15 @@ ol {
     font-weight: 600;
 }
 
+
+/* Media Details */
+.buuzMediaDetail .container {
+    max-width: 1270px;
+}
+
+.buuzMediaDetail .mediaDes {
+    -webkit-line-clamp: inherit;
+}
 
 /* How It Works */
 .videoCard iframe {
